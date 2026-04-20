@@ -6,6 +6,9 @@
 
 PowerShell script that generates comprehensive audit reports of all Teams in your tenant with activity analysis and archival recommendations.
 
+
+<img width="1409" height="955" alt="image" src="https://github.com/user-attachments/assets/1881f56c-cfdb-40d5-b498-3f79d9826a47" />
+
 ## Features
 
 - **Teams Metadata Collection**: Lists all teams with owner, creator, member/guest counts, description, privacy settings, and archived status
