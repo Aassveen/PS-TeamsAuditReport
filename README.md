@@ -1,4 +1,4 @@
-# Teams Audit Report Generator
+# Teams Audit Report
 
 **Author**: Bjørnar Aassveen | **Blog**: https://aassveen.com | **Version**: 1.0 (2026-04-20)
 
