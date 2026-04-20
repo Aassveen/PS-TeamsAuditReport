@@ -1,0 +1,17 @@
+{
+  "_version": "1.0",
+  "_generatedBy": "Bjørnar Aassveen (https://aassveen.com)",
+  "_generatedDate": "2026-04-20",
+  "ClientId": "YOUR_APP_ID_HERE",
+  "ClientSecret": "YOUR_CLIENT_SECRET_HERE",
+  "TenantId": "YOUR_TENANT_ID_HERE",
+  "OutputPath": "C:\\entra-terraform\\Powershell Script\\Reports",
+  "InactiveThresholdDays": 90,
+  "ReviewThresholdDays": 60,
+  "ActivityLookbackDays": 90,
+  "BatchSize": 50,
+  "MaxRetries": 3,
+  "RetryDelaySeconds": 2,
+  "UseExchangeOnlineFallback": false,
+  "Verbose": true
+}
