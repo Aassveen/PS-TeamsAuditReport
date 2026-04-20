@@ -57,7 +57,7 @@ Or manually via Azure Portal:
    - `Directory.Read.All`
    - `Team.ReadBasic.All`
    - `TeamSettings.Read.All`
-   - `TeamMember.Read.All` ← **REQUIRED** for member/guest counts
+   - `TeamMember.Read.All`
    - `User.Read.All`
    - `Group.Read.All`
    - `Sites.Read.All`
