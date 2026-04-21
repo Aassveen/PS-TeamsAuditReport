@@ -42,7 +42,6 @@ Manually via Azure Portal:
 3. Enter name: "Teams Audit Reporter"
 4. Register the app
 5. Go to **API permissions** and add:
-   - `Directory.Read.All`
    - `Team.ReadBasic.All`
    - `TeamSettings.Read.All`
    - `TeamMember.Read.All`
@@ -50,6 +49,9 @@ Manually via Azure Portal:
    - `Group.Read.All`
    - `Sites.Read.All`
    - `Mail.Read`
+  
+## Note: As a best practice, remove or disable the app registration when it is no longer needed. Also remember to configure an Application Access Policy in Exchange Online to restrict which mailboxes, such as shared mailboxes, the application is allowed to access. ##
+     
 6. Grant admin consent
 7. Create a client secret under **Certificates & secrets**
 
