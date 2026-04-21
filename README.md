@@ -34,21 +34,9 @@ PowerShell script that generates comprehensive audit reports of all Teams in you
 
 You need to create an Azure AD App Registration with appropriate permissions to read Teams data.
 
-```powershell
-# Using Azure CLI
-az ad app create --display-name "Teams Audit Reporter" `
-  --query appId -o tsv
 
-# Then create a service principal
-az ad sp create --id <APP_ID>
 
-# Create a client secret
-az ad app credential create --id <APP_ID> `
-  --display-name "TeamsAudit" `
-  --query password -o tsv
-```
-
-Or manually via Azure Portal:
+Manually via Azure Portal:
 1. Go to **Azure Active Directory** → **App registrations**
 2. Click **New registration**
 3. Enter name: "Teams Audit Reporter"
